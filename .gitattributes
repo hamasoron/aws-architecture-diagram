@@ -39,6 +39,9 @@ Dockerfile         text eol=lf
 *.cfn.yml    text eol=lf
 *.cfn.yaml   text eol=lf
 
+# draw.io ダイアグラムファイル（XMLベース）
+*.drawio     text eol=lf
+
 # GitHub Actions 関連
 .github/**/*.yml   text eol=lf
 .github/**/*.yaml  text eol=lf
@@ -65,6 +68,9 @@ buildspec.yml       text eol=lf
 *.tar.gz binary
 *.exe   binary
 *.dll   binary
+
+# draw.io エクスポート画像
+*.drawio.png binary
 
 # ========================
 # デフォルト設定（すべてのテキストファイルに自動変換）

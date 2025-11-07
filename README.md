@@ -5,12 +5,33 @@
 このリポジトリでは、**AWSベストプラクティスを意識した構成図のサンプル**を公開しています。  
 実務経験を活かし、可用性・セキュリティ・運用性を考慮した設計を draw.io 形式で作成しました。
 
-## 📁 収録構成図
+## 📁 ディレクトリ構成
 
-### 1. Personal Study 1 AWS Best Practices Configuration Diagram Sample.drawio
+```
+aws-architecture-diagram/
+├── README.md
+├── personal-study-1/
+│   ├── README.md
+│   ├── Personal Study 1 AWS Best Practices Configuration Diagram Sample.drawio
+│   └── architecture-diagram.png
+├── project-1/
+│   ├── README.md
+│   ├── Project 1 AWS migration support sample for web applications.drawio
+│   └── architecture-diagram.png
+└── project-2/
+    ├── README.md
+    ├── Project 2 AWS migration and standardization sample for on-premise servers.drawio
+    └── architecture-diagram.png
+```
+
+## 📋 収録構成図
+
+### 1. [Personal Study 1: AWS Best Practices Configuration Diagram](./personal-study-1/)
 **学習用：AWSベストプラクティス構成図サンプル**
 
 ![Personal Study 1](https://img.shields.io/badge/Status-Learning%20Project-blue)
+
+<img src="./personal-study-1/architecture-diagram.png" width="600" alt="Personal Study 1 Architecture">
 
 - **目的**: AWSのベストプラクティスに基づいた標準的な構成の学習と理解
 - **主要な構成要素**:
@@ -22,12 +43,16 @@
 
 - **想定シナリオ**: 一般的なWebアプリケーションの可用性・セキュリティを考慮した基本構成
 
+**[📖 詳細はこちら](./personal-study-1/README.md)**
+
 ---
 
-### 2. Project 1 AWS migration support sample for web applications.drawio
+### 2. [Project 1: AWS Migration Support Sample for Web Applications](./project-1/)
 **プロジェクト1：Webアプリケーション AWS移行支援サンプル**
 
 ![Project 1](https://img.shields.io/badge/Status-Sample%20Project-green)
+
+<img src="./project-1/architecture-diagram.png" width="600" alt="Project 1 Architecture">
 
 - **目的**: オンプレミスからAWSへのWebアプリケーション移行を想定した構成設計
 - **主要な構成要素**:
@@ -44,12 +69,16 @@
   - セキュリティ：Private SubnetでのDB配置、適切なSG設計
   - 拡張性：Auto Scalingを見越した構成
 
+**[📖 詳細はこちら](./project-1/README.md)**
+
 ---
 
-### 3. Project 2 AWS migration and standardization sample for on-premise servers.drawio
+### 3. [Project 2: AWS Migration and Standardization Sample for On-Premise Servers](./project-2/)
 **プロジェクト2：オンプレミスサーバー AWS移行・標準化サンプル**
 
 ![Project 2](https://img.shields.io/badge/Status-Sample%20Project-green)
+
+<img src="./project-2/architecture-diagram.png" width="600" alt="Project 2 Architecture">
 
 - **目的**: オンプレミスサーバーのAWS移行と環境標準化を想定した構成設計
 - **主要な構成要素**:
@@ -65,6 +94,8 @@
   - ハイブリッド接続：オンプレとAWSのセキュアな接続
   - 段階的移行：既存環境を維持しながらのクラウド化
   - 標準化：AWS環境でのネットワーク・セキュリティ標準の確立
+
+**[📖 詳細はこちら](./project-2/README.md)**
 
 ---
 
